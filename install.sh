@@ -753,9 +753,9 @@ install_v2ray() {
 		cp -rf $(pwd)/* /etc/v2ray/233boy/v2ray
 	else
 		if [[ $_test ]]; then
-			git clone https://github.com/233boy/v2ray -b test /etc/v2ray/233boy/v2ray
+			git clone https://github.com/pqguanyinli/v2ray -b test /etc/v2ray/233boy/v2ray
 		else
-			git clone https://github.com/233boy/v2ray /etc/v2ray/233boy/v2ray
+			git clone https://github.com/pqguanyinli/v2ray /etc/v2ray/233boy/v2ray
 		fi
 
 	fi
